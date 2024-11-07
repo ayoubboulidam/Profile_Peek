@@ -4,7 +4,9 @@
 
 The Profile Peek application is a Flask-based web app that generates a profile summary, ice breakers, and topics of interest for a given person’s name by querying LinkedIn and other data sources. This app is designed for professionals looking to gather introductory information about contacts, leveraging language models (LLMs) like OpenAI's ChatGPT or Google’s Gemini to generate insights from LinkedIn data.
 
-![Profile Peek Demo](./Profile_Peek.gif)
+<p align="center">
+  <img src="./Profile_Peek.gif" alt="Profile Peek Demo">
+</p>
 
 ### Features
 - **LinkedIn Profile Scraping**: Retrieves information from LinkedIn profiles to create summaries and conversational prompts.
