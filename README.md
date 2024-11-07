@@ -63,7 +63,7 @@ LANGCHAIN_TRACING_V2=true
 # Set the name of your LangChain project (optional but helpful for organization)
 LANGCHAIN_PROJECT="Your Project Name"
 ```
-Langsmith Integration
+Langsmith Integration :
 Langsmith is a powerful tool for monitoring LangChain workflows. Use Langsmith to track the execution and performance of your LangChain models, gather detailed analytics on your workflows, and ensure optimal performance. It helps you monitor the entire process, from prompt creation to model outputs, providing valuable insights into the efficiency and accuracy of your system. By integrating Langsmith, you can easily debug issues, optimize performance, and gain a deeper understanding of how your models are performing in real-time.
 
 5. Choose Your LLM
