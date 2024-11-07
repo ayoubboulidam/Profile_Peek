@@ -21,14 +21,14 @@ git clone https://github.com/yourusername/profile-peek-app.git
 cd profile-peek-app
 ```
 
-###2. Set Up a Virtual Environment
+2. Set Up a Virtual Environment
 Using pipenv (Recommended)
 
 ```bash
 pipenv install
 pipenv shell
 ```
-###3. Install Required Dependencies
+3. Install Required Dependencies
 Create a requirements.txt file or use the one below to install all necessary packages:
 ```bash
 Flask==2.2.2
@@ -39,7 +39,7 @@ pydantic==1.10.2  # For creating structured data models
 python-dotenv==0.20.0  # For handling .env files and loading environment variables
 openai  # Optional: If you use OpenAI’s ChatGPT model
 ```
-###4. Environment Variables
+4. Environment Variables
 ```
 Create a .env file in the root directory to store your API keys. This project requires the following environment variables:
 # API key for Proxycurl for LinkedIn profile scraping
@@ -64,14 +64,14 @@ LANGCHAIN_TRACING_V2=true
 LANGCHAIN_PROJECT="Your Project Name"
 ```
 
-###5. Choose Your LLM
+5. Choose Your LLM
 The app integrates with large language models (LLMs) through LangChain:
 
 OpenAI's ChatGPT: Requires an OpenAI API key.
 Google's Gemini: Requires a Google API key.
 Make sure to add these API keys to your .env file as shown above.
 
-###6. Run the Application
+6. Run the Application
 After completing the setup, you can start the Flask app with:
 ```bash
 flask run
